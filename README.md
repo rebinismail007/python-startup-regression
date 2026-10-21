@@ -1,10 +1,10 @@
 # Startup Regression — Python / pandas / scikit-learn
 
-A reconstructed version of the study assignment about predicting startup profit from R&D, administration and marketing spending. **New AI-assisted code, October 2026.**
+A reconstructed version of the study assignment about predicting startup profit from R&D, administration and marketing spending. **New code, October 2026.**
 
 ## Source and reconstruction
 
-The supplied `AI & Machinelearning Mandatory assignment` PDF describes the startup domain, dropping `State`, retaining genuine zero spending, training a linear regression and measuring RMSE. Page 13 includes a `pandas.read_csv` loading snippet. Most later code sections are placeholders rather than complete source.
+The supplied `Machinelearning Mandatory assignment` PDF describes the startup domain, dropping `State`, retaining genuine zero spending, training a linear regression and measuring RMSE. Page 13 includes a `pandas.read_csv` loading snippet. Most later code sections are placeholders rather than complete source.
 
 This implementation completes the experiment using **80 newly generated synthetic rows**, not the original `50_Startups.csv`. The synthetic data has a deliberately learnable relationship; its scores do not establish performance on real companies.
 
